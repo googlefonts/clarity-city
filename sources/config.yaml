@@ -28,6 +28,8 @@
           value: 700
         - name: ExtraBold
           value: 800
+        - name: Black
+          value: 900
       - name: Italic
         tag: ital
         values:
@@ -55,6 +57,8 @@
           value: 700
         - name: ExtraBold
           value: 800
+        - name: Black
+          value: 900
       - name: Italic
         tag: ital
         values:
