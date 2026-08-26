@@ -1,5 +1,8 @@
 {
 .appVersion = "3516";
+DisplayStrings = (
+"/quotedblleft/quotedblright/quotedblbase"
+);
 copyright = "Copyright 2019 The Clarity City Project Authors (https://github.com/googlefonts/clarity-city)";
 customParameters = (
 {
@@ -19105,43 +19108,46 @@ unicode = 005F;
 {
 color = 1;
 glyphname = quotedblbase;
-lastChange = "2018-09-01 04:08:58 +0000";
+lastChange = "2026-08-26 13:36:22 +0000";
 layers = (
 {
 components = (
 {
 name = comma;
+transform = "{1, 0, 0, 1, 178, 0}";
 },
 {
 name = comma;
 }
 );
 layerId = "84328D8E-4D54-44EF-AF5C-0364B1C28646";
-width = 600;
+width = 488;
 },
 {
 components = (
 {
 name = comma;
+transform = "{1, 0, 0, 1, 188, 0}";
 },
 {
 name = comma;
 }
 );
 layerId = "119329DF-C854-46E0-93EC-7E8A22DFCA4F";
-width = 600;
+width = 507;
 },
 {
 components = (
 {
 name = comma;
+transform = "{1, 0, 0, 1, 292, 0}";
 },
 {
 name = comma;
 }
 );
 layerId = "88AF04C7-891B-4BE3-8AB1-6195D630646B";
-width = 600;
+width = 621;
 }
 );
 unicode = 201E;
