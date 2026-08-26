@@ -1,13 +1,35 @@
 {
-.appVersion = "1233";
-DisplayStrings = (
-"Ã/Cacute/Ccaron Ç/Wacute/Wcircumflex/Wdieresis/Wgrave Ý/Ycircumflex/Ydieresis/Ygrave/Zacute/Zcaron/Zdotaccent á/abreve âäà/amacron/aogonek åã/cacute/ccaron çúûüù/uhungarumlaut/umacron/uogonek/uring/wacute/wcircumflex/wdieresis/wgrave ý/ycircumflex/ydieresis/ygrave/zacute/zcaron/zdotaccent/aacute.alt/abreve.alt/acircumflex.alt/adieresis.alt/agrave.alt/amacron.alt/aogonek.alt/aring.alt/atilde.alt"
-);
+.appVersion = "3516";
 copyright = "Copyright (c) 2019 VMware, Inc.	";
+customParameters = (
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+}
+);
+}
+);
 date = "2019-04-25 15:23:29 +0000";
 designer = VMware;
 designerURL = "https://github.com/vmware/clarity-city";
 familyName = "Clarity City";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;\012";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "lookup ccmp_DFLT_1 {\012	@CombiningTopAccents = [dotaccentcomb];\012	lookupflag UseMarkFilteringSet @CombiningTopAccents;\012	sub i' @CombiningTopAccents by idotless;\012	sub j' @CombiningTopAccents by jdotless;\012} ccmp_DFLT_1;\012";
+name = ccmp;
+}
+);
 fontMaster = (
 {
 alignmentZones = (
@@ -19,7 +41,7 @@ alignmentZones = (
 );
 ascender = 795;
 capHeight = 687;
-customValue = 5;
+custom = "Thin Italic";
 customParameters = (
 {
 name = typoAscender;
@@ -81,8 +103,12 @@ position = "{143, 258}";
 }
 );
 horizontalStems = (
-36
+36,
+0,
+0,
+0
 );
+iconName = Light;
 id = "84328D8E-4D54-44EF-AF5C-0364B1C28646";
 italicAngle = 11.75;
 userData = {
@@ -90,10 +116,11 @@ GSOffsetHorizontal = 10;
 GSOffsetVertical = 10;
 };
 verticalStems = (
-36
+36,
+0,
+0,
+0
 );
-weight = Light;
-widthValue = 5;
 xHeight = 517;
 },
 {
@@ -106,7 +133,7 @@ alignmentZones = (
 );
 ascender = 795;
 capHeight = 687;
-customValue = 5;
+custom = Italic;
 customParameters = (
 {
 name = typoAscender;
@@ -167,7 +194,8 @@ position = "{83, 253}";
 horizontalStems = (
 67,
 71,
-74
+74,
+0
 );
 id = "119329DF-C854-46E0-93EC-7E8A22DFCA4F";
 italicAngle = 11.75;
@@ -178,10 +206,10 @@ GSOffsetVertical = 21;
 verticalStems = (
 75,
 78,
-79
+79,
+0
 );
 weightValue = 400;
-widthValue = 5;
 xHeight = 517;
 },
 {
@@ -194,7 +222,7 @@ alignmentZones = (
 );
 ascender = 795;
 capHeight = 687;
-customValue = 5;
+custom = "Black Italic";
 customParameters = (
 {
 name = typoAscender;
@@ -252,6 +280,7 @@ horizontalStems = (
 173,
 176
 );
+iconName = Bold;
 id = "88AF04C7-891B-4BE3-8AB1-6195D630646B";
 italicAngle = 11.75;
 userData = {
@@ -264,9 +293,7 @@ verticalStems = (
 194,
 200
 );
-weight = Bold;
 weightValue = 900;
-widthValue = 5;
 xHeight = 517;
 }
 );
@@ -16908,7 +16935,7 @@ transform = "{-1, 0, 0, -1, 651, 687}";
 }
 );
 layerId = "119329DF-C854-46E0-93EC-7E8A22DFCA4F";
-width = 615;
+width = 616;
 },
 {
 components = (
@@ -16924,11 +16951,11 @@ width = 595;
 components = (
 {
 name = six;
-transform = "{-1, 0, 0, -1, 704, 687}";
+transform = "{-1, 0, 0, -1, 703, 687}";
 }
 );
 layerId = "88AF04C7-891B-4BE3-8AB1-6195D630646B";
-width = 669;
+width = 668;
 }
 );
 unicode = 0039;
@@ -19755,7 +19782,7 @@ unicode = 2004;
 {
 color = 1;
 glyphname = cent;
-lastChange = "2018-09-01 04:10:29 +0000";
+lastChange = "2026-08-26 13:06:41 +0000";
 layers = (
 {
 components = (
@@ -19808,7 +19835,7 @@ transform = "{1, 0, 0, 1, 43, 0}";
 }
 );
 layerId = "CD90DB56-FE36-4467-BA7E-FAF58F97F182";
-name = "Regular Italic[700]";
+name = "[700]";
 paths = (
 {
 closed = 1;
@@ -19861,7 +19888,7 @@ transform = "{1, 0, 0, 1, 28, 0}";
 }
 );
 layerId = "D724E45A-51D9-4A7B-8555-EA409F132820";
-name = "Bold Italic[700]";
+name = "[700]";
 paths = (
 {
 closed = 1;
@@ -19883,6 +19910,44 @@ nodes = (
 }
 );
 width = 608;
+},
+{
+associatedMasterId = "84328D8E-4D54-44EF-AF5C-0364B1C28646";
+components = (
+{
+name = c;
+transform = "{1, 0, 0, 1, 53, 0}";
+}
+);
+guideLines = (
+{
+angle = 258.2784;
+position = "{366, 442}";
+}
+);
+layerId = "3E02BC98-E757-4C8C-AB65-645DB5B919CF";
+name = "[700]";
+paths = (
+{
+closed = 1;
+nodes = (
+"294 -74 LINE",
+"314 17 LINE",
+"278 17 LINE",
+"258 -74 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"415 505 LINE",
+"432 589 LINE",
+"396 589 LINE",
+"379 505 LINE"
+);
+}
+);
+width = 601;
 }
 );
 unicode = 00A2;
@@ -19890,7 +19955,7 @@ unicode = 00A2;
 {
 color = 1;
 glyphname = dollar;
-lastChange = "2018-09-01 04:09:18 +0000";
+lastChange = "2026-08-26 13:07:51 +0000";
 layers = (
 {
 components = (
@@ -19943,7 +20008,7 @@ transform = "{1, 0, 0, 1, 23, 0}";
 }
 );
 layerId = "ED2C635E-C91F-4FE6-AAB6-CF8DAA0B1DB2";
-name = "Regular Italic[700]";
+name = "[700]";
 paths = (
 {
 closed = 1;
@@ -19996,7 +20061,7 @@ transform = "{1, 0, 0, 1, 17, 0}";
 }
 );
 layerId = "F55F9F50-2CC1-4C30-A7B9-B30AE2A667E8";
-name = "Bold Italic[700]";
+name = "[700]";
 paths = (
 {
 closed = 1;
@@ -20018,6 +20083,48 @@ nodes = (
 }
 );
 width = 702;
+},
+{
+associatedMasterId = "84328D8E-4D54-44EF-AF5C-0364B1C28646";
+components = (
+{
+name = S;
+transform = "{1, 0, 0, 1, -3, 0}";
+}
+);
+guideLines = (
+{
+angle = 258.2597;
+position = "{365, 555}";
+},
+{
+angle = 78.2479;
+position = "{399, 548}";
+}
+);
+layerId = "CB9D1F6C-12F0-4C79-95C0-B200AAD04BB3";
+name = "[700]";
+paths = (
+{
+closed = 1;
+nodes = (
+"270 -74 LINE",
+"287 2 LINE",
+"253 10 LINE",
+"234 -74 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"424 668 LINE",
+"443 759 LINE",
+"407 759 LINE",
+"391 682 LINE"
+);
+}
+);
+width = 653;
 }
 );
 unicode = 0024;
@@ -20924,11 +21031,12 @@ unicode = 003C;
 {
 color = 1;
 glyphname = asciitilde;
-lastChange = "2018-09-01 04:09:18 +0000";
+lastChange = "2026-08-26 13:04:20 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, -14, -275}";
 }
@@ -20939,6 +21047,7 @@ width = 540;
 {
 components = (
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, -7, -275}";
 }
@@ -20949,6 +21058,7 @@ width = 551;
 {
 components = (
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, -29, -281}";
 }
@@ -25514,46 +25624,6 @@ width = 631;
 );
 instances = (
 {
-customParameters = (
-{
-name = typoAscender;
-value = 795;
-},
-{
-name = typoDescender;
-value = -205;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 795;
-},
-{
-name = hheaDescender;
-value = -205;
-},
-{
-name = underlinePosition;
-value = -133;
-},
-{
-name = underlineThickness;
-value = 20;
-},
-{
-name = winAscent;
-value = 795;
-},
-{
-name = winDescent;
-value = 205;
-}
-);
-interpolationCustom = 5;
-interpolationWidth = 5;
 instanceInterpolations = {
 "84328D8E-4D54-44EF-AF5C-0364B1C28646" = 1;
 };
@@ -25563,47 +25633,7 @@ name = "Thin Italic";
 weightClass = Thin;
 },
 {
-customParameters = (
-{
-name = typoAscender;
-value = 795;
-},
-{
-name = typoDescender;
-value = -205;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 795;
-},
-{
-name = hheaDescender;
-value = -205;
-},
-{
-name = underlinePosition;
-value = -133;
-},
-{
-name = underlineThickness;
-value = 20;
-},
-{
-name = winAscent;
-value = 795;
-},
-{
-name = winDescent;
-value = 205;
-}
-);
-interpolationCustom = 5;
 interpolationWeight = 200;
-interpolationWidth = 5;
 instanceInterpolations = {
 "119329DF-C854-46E0-93EC-7E8A22DFCA4F" = 0.33333;
 "84328D8E-4D54-44EF-AF5C-0364B1C28646" = 0.66667;
@@ -25614,47 +25644,7 @@ name = "Extra Light Italic";
 weightClass = ExtraLight;
 },
 {
-customParameters = (
-{
-name = typoAscender;
-value = 795;
-},
-{
-name = typoDescender;
-value = -205;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 795;
-},
-{
-name = hheaDescender;
-value = -205;
-},
-{
-name = underlinePosition;
-value = -133;
-},
-{
-name = underlineThickness;
-value = 20;
-},
-{
-name = winAscent;
-value = 795;
-},
-{
-name = winDescent;
-value = 205;
-}
-);
-interpolationCustom = 5;
 interpolationWeight = 300;
-interpolationWidth = 5;
 instanceInterpolations = {
 "119329DF-C854-46E0-93EC-7E8A22DFCA4F" = 0.66667;
 "84328D8E-4D54-44EF-AF5C-0364B1C28646" = 0.33333;
@@ -25665,96 +25655,16 @@ name = "Light Italic";
 weightClass = Light;
 },
 {
-customParameters = (
-{
-name = typoAscender;
-value = 795;
-},
-{
-name = typoDescender;
-value = -205;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 795;
-},
-{
-name = hheaDescender;
-value = -205;
-},
-{
-name = underlinePosition;
-value = -133;
-},
-{
-name = underlineThickness;
-value = 20;
-},
-{
-name = winAscent;
-value = 795;
-},
-{
-name = winDescent;
-value = 205;
-}
-);
-interpolationCustom = 5;
 interpolationWeight = 400;
-interpolationWidth = 5;
 instanceInterpolations = {
 "119329DF-C854-46E0-93EC-7E8A22DFCA4F" = 1;
 };
 isItalic = 1;
 linkStyle = Regular;
-name = "Regular Italic";
+name = Italic;
 },
 {
-customParameters = (
-{
-name = typoAscender;
-value = 795;
-},
-{
-name = typoDescender;
-value = -205;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 795;
-},
-{
-name = hheaDescender;
-value = -205;
-},
-{
-name = underlinePosition;
-value = -133;
-},
-{
-name = underlineThickness;
-value = 20;
-},
-{
-name = winAscent;
-value = 795;
-},
-{
-name = winDescent;
-value = 205;
-}
-);
-interpolationCustom = 5;
 interpolationWeight = 500;
-interpolationWidth = 5;
 instanceInterpolations = {
 "119329DF-C854-46E0-93EC-7E8A22DFCA4F" = 0.8;
 "88AF04C7-891B-4BE3-8AB1-6195D630646B" = 0.2;
@@ -25765,47 +25675,7 @@ name = "Medium Italic";
 weightClass = Medium;
 },
 {
-customParameters = (
-{
-name = typoAscender;
-value = 795;
-},
-{
-name = typoDescender;
-value = -205;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 795;
-},
-{
-name = hheaDescender;
-value = -205;
-},
-{
-name = underlinePosition;
-value = -133;
-},
-{
-name = underlineThickness;
-value = 20;
-},
-{
-name = winAscent;
-value = 795;
-},
-{
-name = winDescent;
-value = 205;
-}
-);
-interpolationCustom = 5;
 interpolationWeight = 600;
-interpolationWidth = 5;
 instanceInterpolations = {
 "119329DF-C854-46E0-93EC-7E8A22DFCA4F" = 0.6;
 "88AF04C7-891B-4BE3-8AB1-6195D630646B" = 0.4;
@@ -25816,47 +25686,7 @@ name = "Semi Bold Italic";
 weightClass = SemiBold;
 },
 {
-customParameters = (
-{
-name = typoAscender;
-value = 795;
-},
-{
-name = typoDescender;
-value = -205;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 795;
-},
-{
-name = hheaDescender;
-value = -205;
-},
-{
-name = underlinePosition;
-value = -133;
-},
-{
-name = underlineThickness;
-value = 20;
-},
-{
-name = winAscent;
-value = 795;
-},
-{
-name = winDescent;
-value = 205;
-}
-);
-interpolationCustom = 5;
 interpolationWeight = 700;
-interpolationWidth = 5;
 instanceInterpolations = {
 "119329DF-C854-46E0-93EC-7E8A22DFCA4F" = 0.4;
 "88AF04C7-891B-4BE3-8AB1-6195D630646B" = 0.6;
@@ -25868,47 +25698,7 @@ name = "Bold Italic";
 weightClass = Bold;
 },
 {
-customParameters = (
-{
-name = typoAscender;
-value = 795;
-},
-{
-name = typoDescender;
-value = -205;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 795;
-},
-{
-name = hheaDescender;
-value = -205;
-},
-{
-name = underlinePosition;
-value = -133;
-},
-{
-name = underlineThickness;
-value = 20;
-},
-{
-name = winAscent;
-value = 795;
-},
-{
-name = winDescent;
-value = 205;
-}
-);
-interpolationCustom = 5;
 interpolationWeight = 800;
-interpolationWidth = 5;
 instanceInterpolations = {
 "119329DF-C854-46E0-93EC-7E8A22DFCA4F" = 0.2;
 "88AF04C7-891B-4BE3-8AB1-6195D630646B" = 0.8;
@@ -25919,47 +25709,7 @@ name = "Extra Bold Italic";
 weightClass = ExtraBold;
 },
 {
-customParameters = (
-{
-name = typoAscender;
-value = 795;
-},
-{
-name = typoDescender;
-value = -205;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 795;
-},
-{
-name = hheaDescender;
-value = -205;
-},
-{
-name = underlinePosition;
-value = -133;
-},
-{
-name = underlineThickness;
-value = 20;
-},
-{
-name = winAscent;
-value = 795;
-},
-{
-name = winDescent;
-value = 205;
-}
-);
-interpolationCustom = 5;
 interpolationWeight = 900;
-interpolationWidth = 5;
 instanceInterpolations = {
 "88AF04C7-891B-4BE3-8AB1-6195D630646B" = 1;
 };
