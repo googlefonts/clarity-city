@@ -5,6 +5,8 @@
       - wght
       - ital
     familyName: "Clarity City"
+    buildStatic: false
+    cleanUp: true
     stat:
       ClarityCity[wght].ttf:
       - name: Weight
