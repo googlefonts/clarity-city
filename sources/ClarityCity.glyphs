@@ -1,9 +1,5 @@
 {
 .appVersion = "3516";
-DisplayStrings = (
-"ã",
-"/dieresiscomb"
-);
 copyright = "Copyright 2019 The Clarity City Project Authors (https://github.com/googlefonts/clarity-city)";
 customParameters = (
 {
@@ -50,6 +46,46 @@ date = "2019-04-25 15:17:33 +0000";
 designer = VMware;
 designerURL = "https://github.com/vmware/clarity-city";
 familyName = "Clarity City";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;\012\012languagesystem latn dflt;\012languagesystem latn AZE;\012languagesystem latn CRT;\012languagesystem latn KAZ;\012languagesystem latn TAT;\012languagesystem latn TRK;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn CAT;\012";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature locl;\012feature ordn;\012feature case;\012feature ss01;\012";
+name = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_DFLT_1 {\012	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	lookupflag UseMarkFilteringSet @CombiningTopAccents;\012	sub i' @CombiningTopAccents by idotless;\012	sub j' @CombiningTopAccents by jdotless;\012} ccmp_DFLT_1;\012";
+name = ccmp;
+},
+{
+automatic = 1;
+code = "script latn;\012language AZE;\012lookup locl_latn_0 {\012	sub i by idotaccent;\012} locl_latn_0;\012language CRT;\012lookup locl_latn_0;\012language KAZ;\012lookup locl_latn_0;\012language TAT;\012lookup locl_latn_0;\012language TRK;\012lookup locl_latn_0;\012\012script latn;\012language ROM;\012lookup locl_latn_1 {\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012language MOL;\012lookup locl_latn_1;\012\012script latn;\012language CAT;\012lookup locl_latn_2 {\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT.case;\012} locl_latn_2;\012";
+name = locl;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012";
+name = ordn;
+},
+{
+automatic = 1;
+code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;\012";
+name = case;
+},
+{
+automatic = 1;
+code = "sub a by a.ss01;\012sub aacute by aacute.ss01;\012sub abreve by abreve.ss01;\012sub acircumflex by acircumflex.ss01;\012sub adieresis by adieresis.ss01;\012sub agrave by agrave.ss01;\012sub amacron by amacron.ss01;\012sub aogonek by aogonek.ss01;\012sub aring by aring.ss01;\012sub atilde by atilde.ss01;\012";
+name = ss01;
+notes = "Name: a alternate";
+}
+);
 fontMaster = (
 {
 alignmentZones = (
@@ -9237,7 +9273,7 @@ name = G;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 287, 0}";
+transform = "{1, 0, 0, 1, 297, 0}";
 }
 );
 layerId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
@@ -11907,7 +11943,7 @@ name = K;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 253, 0}";
+transform = "{1, 0, 0, 1, 263, 0}";
 }
 );
 layerId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
@@ -13836,7 +13872,7 @@ name = N;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 273, 0}";
+transform = "{1, 0, 0, 1, 283, 0}";
 }
 );
 layerId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
@@ -18689,7 +18725,7 @@ name = R;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 211, 0}";
+transform = "{1, 0, 0, 1, 221, 0}";
 }
 );
 layerId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
@@ -20330,7 +20366,7 @@ name = S;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 186, 0}";
+transform = "{1, 0, 0, 1, 196, 0}";
 }
 );
 layerId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
@@ -21272,7 +21308,7 @@ name = T;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 148, 0}";
+transform = "{1, 0, 0, 1, 158, 0}";
 }
 );
 layerId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
@@ -37571,7 +37607,7 @@ name = g;
 {
 alignment = 1;
 name = commaaccentcomb;
-transform = "{-1, 0, 0, -1, 409, 517}";
+transform = "{-1, 0, 0, -1, 399, 517}";
 }
 );
 layerId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
@@ -41171,7 +41207,7 @@ name = k;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 158, 0}";
+transform = "{1, 0, 0, 1, 168, 0}";
 }
 );
 layerId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
@@ -42108,7 +42144,7 @@ name = l;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, -15, 0}";
+transform = "{1, 0, 0, 1, -5, 0}";
 }
 );
 layerId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
@@ -43998,7 +44034,7 @@ name = n;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 177, 0}";
+transform = "{1, 0, 0, 1, 187, 0}";
 }
 );
 layerId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
@@ -48893,7 +48929,7 @@ name = r;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 78, 0}";
+transform = "{1, 0, 0, 1, 88, 0}";
 }
 );
 layerId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
@@ -50545,7 +50581,7 @@ name = s;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 111, 0}";
+transform = "{1, 0, 0, 1, 121, 0}";
 }
 );
 layerId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
@@ -52103,7 +52139,7 @@ name = t;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 96, 0}";
+transform = "{1, 0, 0, 1, 106, 0}";
 }
 );
 layerId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
@@ -58081,8 +58117,8 @@ unicode = 017C;
 },
 {
 color = 1;
-glyphname = a.alt;
-lastChange = "2026-08-26 13:58:59 +0000";
+glyphname = a.ss01;
+lastChange = "2026-08-26 14:03:11 +0000";
 layers = (
 {
 anchors = (
@@ -58373,8 +58409,8 @@ rightKerningGroup = d;
 },
 {
 color = 1;
-glyphname = aacute.alt;
-lastChange = "2026-08-26 13:58:59 +0000";
+glyphname = aacute.ss01;
+lastChange = "2026-08-26 14:03:11 +0000";
 layers = (
 {
 background = {
@@ -58457,7 +58493,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = acute;
@@ -58548,7 +58584,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = acute;
@@ -58639,7 +58675,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 alignment = 1;
@@ -58758,8 +58794,8 @@ rightKerningGroup = d;
 },
 {
 color = 1;
-glyphname = abreve.alt;
-lastChange = "2026-08-26 13:58:59 +0000";
+glyphname = abreve.ss01;
+lastChange = "2026-08-26 14:03:11 +0000";
 layers = (
 {
 background = {
@@ -58852,7 +58888,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = breve;
@@ -58953,7 +58989,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = breve;
@@ -59054,7 +59090,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = breve;
@@ -59172,8 +59208,8 @@ rightKerningGroup = d;
 },
 {
 color = 1;
-glyphname = acircumflex.alt;
-lastChange = "2026-08-26 13:58:59 +0000";
+glyphname = acircumflex.ss01;
+lastChange = "2026-08-26 14:03:11 +0000";
 layers = (
 {
 background = {
@@ -59259,7 +59295,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = circumflex;
@@ -59353,7 +59389,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = circumflex;
@@ -59447,7 +59483,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = circumflex;
@@ -59565,8 +59601,8 @@ rightKerningGroup = d;
 },
 {
 color = 1;
-glyphname = adieresis.alt;
-lastChange = "2026-08-26 13:58:59 +0000";
+glyphname = adieresis.ss01;
+lastChange = "2026-08-26 14:03:11 +0000";
 layers = (
 {
 background = {
@@ -59674,7 +59710,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = dieresis;
@@ -59790,7 +59826,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = dieresis;
@@ -59906,7 +59942,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = dieresis;
@@ -60024,8 +60060,8 @@ rightKerningGroup = d;
 },
 {
 color = 1;
-glyphname = agrave.alt;
-lastChange = "2026-08-26 13:58:59 +0000";
+glyphname = agrave.ss01;
+lastChange = "2026-08-26 14:03:11 +0000";
 layers = (
 {
 background = {
@@ -60108,7 +60144,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = grave;
@@ -60199,7 +60235,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = grave;
@@ -60290,7 +60326,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = grave;
@@ -60407,8 +60443,8 @@ leftKerningGroup = d;
 rightKerningGroup = d;
 },
 {
-glyphname = amacron.alt;
-lastChange = "2026-08-26 13:58:59 +0000";
+glyphname = amacron.ss01;
+lastChange = "2026-08-26 14:03:11 +0000";
 layers = (
 {
 background = {
@@ -60491,7 +60527,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = macron;
@@ -60582,7 +60618,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = macron;
@@ -60673,7 +60709,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = macron;
@@ -60791,8 +60827,8 @@ rightKerningGroup = d;
 },
 {
 color = 1;
-glyphname = aogonek.alt;
-lastChange = "2026-08-26 13:58:59 +0000";
+glyphname = aogonek.ss01;
+lastChange = "2026-08-26 14:03:11 +0000";
 layers = (
 {
 background = {
@@ -60891,7 +60927,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = ogonek;
@@ -60998,7 +61034,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = ogonek;
@@ -61105,7 +61141,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = ogonek;
@@ -61222,8 +61258,8 @@ leftKerningGroup = d;
 rightKerningGroup = d;
 },
 {
-glyphname = aring.alt;
-lastChange = "2026-08-26 13:58:59 +0000";
+glyphname = aring.ss01;
+lastChange = "2026-08-26 14:03:11 +0000";
 layers = (
 {
 background = {
@@ -61331,7 +61367,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = ring;
@@ -61447,7 +61483,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = ring;
@@ -61563,7 +61599,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = ring;
@@ -61680,8 +61716,8 @@ leftKerningGroup = d;
 rightKerningGroup = d;
 },
 {
-glyphname = atilde.alt;
-lastChange = "2026-08-26 13:58:59 +0000";
+glyphname = atilde.ss01;
+lastChange = "2026-08-26 14:03:11 +0000";
 layers = (
 {
 background = {
@@ -61780,7 +61816,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = tilde;
@@ -61887,7 +61923,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = tilde;
@@ -61994,7 +62030,7 @@ nodes = (
 };
 components = (
 {
-name = a.alt;
+name = a.ss01;
 },
 {
 name = tilde;
@@ -86091,17 +86127,17 @@ unicode = 0304;
 {
 color = 1;
 glyphname = commaaccentcomb;
-lastChange = "2026-08-26 13:59:00 +0000";
+lastChange = "2026-08-26 14:04:03 +0000";
 layers = (
 {
 anchors = (
 {
 name = _bottom;
-position = "{115, 0}";
+position = "{118, 0}";
 },
 {
-name = _top;
-position = "{115, 517}";
+name = bottom;
+position = "{118, -275}";
 }
 );
 background = {
@@ -86169,11 +86205,11 @@ width = 232;
 anchors = (
 {
 name = _bottom;
-position = "{114, 0}";
+position = "{116, 0}";
 },
 {
-name = _top;
-position = "{114, 517}";
+name = bottom;
+position = "{116, -301}";
 }
 );
 background = {
@@ -86241,11 +86277,11 @@ width = 238;
 anchors = (
 {
 name = _bottom;
-position = "{123, 0}";
+position = "{113, 0}";
 },
 {
-name = _top;
-position = "{123, 517}";
+name = bottom;
+position = "{113, -268}";
 }
 );
 background = {
