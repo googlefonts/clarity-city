@@ -17143,6 +17143,44 @@ width = 270;
 unicode = 202F;
 },
 {
+glyphname = lineseparator;
+lastChange = "2026-08-26 13:42:32 +0000";
+layers = (
+{
+layerId = "84328D8E-4D54-44EF-AF5C-0364B1C28646";
+width = 600;
+},
+{
+layerId = "119329DF-C854-46E0-93EC-7E8A22DFCA4F";
+width = 600;
+},
+{
+layerId = "88AF04C7-891B-4BE3-8AB1-6195D630646B";
+width = 600;
+}
+);
+unicode = 2028;
+},
+{
+glyphname = paragraphseparator;
+lastChange = "2026-08-26 13:42:32 +0000";
+layers = (
+{
+layerId = "84328D8E-4D54-44EF-AF5C-0364B1C28646";
+width = 600;
+},
+{
+layerId = "119329DF-C854-46E0-93EC-7E8A22DFCA4F";
+width = 600;
+},
+{
+layerId = "88AF04C7-891B-4BE3-8AB1-6195D630646B";
+width = 600;
+}
+);
+unicode = 2029;
+},
+{
 color = 1;
 glyphname = period;
 lastChange = "2018-05-30 02:38:43 +0000";

@@ -24452,6 +24452,42 @@ width = 270;
 unicode = 202F;
 },
 {
+glyphname = lineseparator;
+layers = (
+{
+layerId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
+width = 600;
+},
+{
+layerId = "35616FF6-3D9C-499B-B113-AC9E0DB5842A";
+width = 600;
+},
+{
+layerId = "A0D976AB-773B-4D3A-9F7E-7A0C42AF1E7B";
+width = 600;
+}
+);
+unicode = 2028;
+},
+{
+glyphname = paragraphseparator;
+layers = (
+{
+layerId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
+width = 600;
+},
+{
+layerId = "35616FF6-3D9C-499B-B113-AC9E0DB5842A";
+width = 600;
+},
+{
+layerId = "A0D976AB-773B-4D3A-9F7E-7A0C42AF1E7B";
+width = 600;
+}
+);
+unicode = 2029;
+},
+{
 color = 1;
 glyphname = period;
 lastChange = "2018-05-30 02:38:43 +0000";
