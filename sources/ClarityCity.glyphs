@@ -1,5 +1,8 @@
 {
 .appVersion = "3516";
+DisplayStrings = (
+A
+);
 copyright = "Copyright 2019 The Clarity City Project Authors (https://github.com/googlefonts/clarity-city)";
 customParameters = (
 {
@@ -323,7 +326,7 @@ glyphs = (
 {
 color = 1;
 glyphname = A;
-lastChange = "2018-08-19 08:01:39 +0000";
+lastChange = "2026-08-26 13:44:28 +0000";
 layers = (
 {
 anchors = (
@@ -334,12 +337,6 @@ position = "{716, 0}";
 {
 name = top;
 position = "{371, 687}";
-}
-);
-components = (
-{
-name = capital_V;
-transform = "{-1, 0, 0, -1, 741, 687}";
 }
 );
 guideLines = (
@@ -353,10 +350,22 @@ paths = (
 {
 closed = 1;
 nodes = (
-"580 156 LINE",
-"580 230 LINE",
-"161 230 LINE",
-"161 156 LINE"
+"110 0 LINE",
+"179 156 LINE",
+"562 156 LINE",
+"631 0 LINE",
+"716 0 LINE",
+"413 687 LINE",
+"328 687 LINE",
+"25 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"371 591 LINE",
+"530 230 LINE",
+"211 230 LINE"
 );
 }
 );
@@ -373,12 +382,6 @@ name = top;
 position = "{399, 687}";
 }
 );
-components = (
-{
-name = capital_V;
-transform = "{-1, 0, 0, -1, 799, 687}";
-}
-);
 guideLines = (
 {
 angle = 90;
@@ -390,10 +393,22 @@ paths = (
 {
 closed = 1;
 nodes = (
-"608 92 LINE",
-"608 235 LINE",
-"189 235 LINE",
-"189 92 LINE"
+"244 0 LINE",
+"279 92 LINE",
+"518 92 LINE",
+"553 0 LINE",
+"772 0 LINE",
+"508 687 LINE",
+"289 687 LINE",
+"25 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"399 402 LINE",
+"463 235 LINE",
+"334 235 LINE"
 );
 }
 );
@@ -410,12 +425,6 @@ name = top;
 position = "{338, 686}";
 }
 );
-components = (
-{
-name = capital_V;
-transform = "{-1, 0, 0, -1, 676, 687}";
-}
-);
 guideLines = (
 {
 angle = 90;
@@ -427,10 +436,22 @@ paths = (
 {
 closed = 1;
 nodes = (
-"558 175 LINE",
-"558 211 LINE",
-"119 211 LINE",
-"119 175 LINE"
+"55 0 LINE",
+"132 175 LINE",
+"544 175 LINE",
+"621 0 LINE",
+"661 0 LINE",
+"358 687 LINE",
+"318 687 LINE",
+"15 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"338 642 LINE",
+"528 211 LINE",
+"148 211 LINE"
 );
 }
 );
