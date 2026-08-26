@@ -74,11 +74,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 795;
+value = 965;
 },
 {
 name = winDescent;
-value = 205;
+value = 277;
 },
 {
 name = hheaAscender;
@@ -166,11 +166,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 795;
+value = 965;
 },
 {
 name = winDescent;
-value = 205;
+value = 277;
 },
 {
 name = hheaAscender;
@@ -255,11 +255,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 795;
+value = 965;
 },
 {
 name = winDescent;
-value = 205;
+value = 277;
 },
 {
 name = hheaAscender;
