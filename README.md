@@ -1,25 +1,57 @@
 # Clarity City
 
-![Clarity City Typeface](./clarity-city.png)
+[![][Fontspector]](https://googlefonts.github.io/googlefonts-project-template/fontspector/fontspector-report.html)
+[![][OpenType]](https://googlefonts.github.io/googlefonts-project-template/fontspector/fontspector-report.html)
+[![][Universal]](https://googlefonts.github.io/googlefonts-project-template/fontspector/fontspector-report.html)
+[![][Google Fonts]](https://googlefonts.github.io/googlefonts-project-template/fontspector/fontspector-report.html)
+[![][Glyphset]](https://googlefonts.github.io/googlefonts-project-template/fontspector/fontspector-report.html)
+
+[Fontspector]: https://img.shields.io/endpoint?url=https%3A%2F%2Fgooglefonts.github.io%2Fgooglefonts-project-template%2Fbadges%2FFontspectorQA.json
+[OpenType]: https://img.shields.io/endpoint?url=https%3A%2F%2Fgooglefonts.github.io%2Fgooglefonts-project-template%2Fbadges%2FOpentypeSpecificationChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fgooglefonts.github.io%2Fgooglefonts-project-template%2Fbadges%2FUniversalProfileChecks.json
+[Google Fonts]: https://img.shields.io/endpoint?url=https%3A%2F%2Fgooglefonts.github.io%2Fgooglefonts-project-template%2Fbadges%2FFontFileChecks.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fgooglefonts.github.io%2Fgooglefonts-project-template%2Fbadges%2FOutlineCorrectnessChecks.json
+[Glyphset]: https://img.shields.io/endpoint?url=https%3A%2F%2Fgooglefonts.github.io%2Fgooglefonts-project-template%2Fbadges%2FGlyphsetChecks.json
 
 Clarity City is an open source sans-serif typeface. It is the default font for the VMware Clarity Design System.
 
-We have provided the files in OpenType, TrueType, and WebFont (EOT, WOFF, WOFF2) file formats.
+![Sample Image](documentation/clarity-city.png)
 
-## Support & Contributions
+## About
 
-Please use GitHub issues for reporting problems, and before submitting contributions please open an issue to discuss your proposed changes. We will consider contributions, though we aim to keep a very stable font and limit releases to essential changes and fixes.
+See the following [discussion](https://github.com/google/fonts/issues/7575).
 
-_We are not a type foundry, and while we are releasing this as an open source project our ability to make changes is limited. We work with partners to make improvements over time, so changes and feedback may take longer to implement._
+## Building
 
-## Code of Conduct
+Fonts are built automatically by GitHub Actions — take a look in the "Actions" tab for the latest build.
 
-Please be respectful of others and follow our [code of conduct](./CODE-OF-CONDUCT.md).
+If you want to build fonts manually on your own computer:
+
+- `make build` will produce font files.
+- `make test` will run [Fontspector](https://fonttools.github.io/fontspector/)'s quality assurance tests.
+- `make proof` will generate HTML proof files.
+
+The proof files and QA tests are also available automatically via GitHub Actions — look at `https://yourname.github.io/your-font-repository-name`.
+
+## Changelog
+
+
+**26 August 2026. Version 1.000 | Emma Marichal**
+
+* Sources brought up to Google Fonts standards.
+* Quality assurance completed for the first release.
+* Build process set up.
+
+**23 April 2026. Fork created | Dave Crossland**
+
+
+* [Previous repository](https://github.com/vmware-archive/clarity-city)
 
 ## License
 
-Licensed under Open Font License (OFL). See [LICENSE](./LICENSE).
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at https://openfontlicense.org
 
-### Attribution
+## Repository Layout
 
-Clarity City is based upon the work done by @chrismsimpson on [Metropolis](https://github.com/chrismsimpson/Metropolis).
+This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository), modified for the Google Fonts workflow.
