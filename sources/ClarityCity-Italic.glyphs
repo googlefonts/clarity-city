@@ -1,7 +1,15 @@
 {
 .appVersion = "3516";
-copyright = "Copyright (c) 2019 VMware, Inc.	";
+copyright = "Copyright 2019 The Clarity City Project Authors (https://github.com/googlefonts/clarity-city)";
 customParameters = (
+{
+name = licenseURL;
+value = "https://openfontlicense.org";
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
+},
 {
 name = Axes;
 value = (
