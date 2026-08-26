@@ -1,7 +1,7 @@
 {
 .appVersion = "3516";
 DisplayStrings = (
-"/Hbar/Germandbls/hbar/quotesinglbase §°\012\012not/.notdef def"
+"ÐHH/Hbar e/hbar \012\012\012section/space §/space S/space \012\01215°C\012\012STRA/Germandbls E\012\012not/.notdef def"
 );
 copyright = "Copyright 2019 The Clarity City Project Authors (https://github.com/googlefonts/clarity-city)";
 customParameters = (
@@ -5481,7 +5481,7 @@ unicode = 0110;
 {
 color = 3;
 glyphname = Eth;
-lastChange = "2026-08-26 14:06:17 +0000";
+lastChange = "2026-08-26 14:12:47 +0000";
 layers = (
 {
 background = {
@@ -5542,7 +5542,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"381 332 LINE",
+"382 332 LINE",
 "382 368 LINE",
 "33 368 LINE",
 "33 332 LINE"
@@ -5610,7 +5610,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"392 313 LINE",
+"393 313 LINE",
 "393 387 LINE",
 "44 387 LINE",
 "44 313 LINE"
@@ -5678,7 +5678,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"436 258 LINE",
+"437 258 LINE",
 "437 431 LINE",
 "38 431 LINE",
 "38 258 LINE"
@@ -9763,7 +9763,7 @@ unicode = 0120;
 {
 color = 6;
 glyphname = H;
-lastChange = "2026-08-26 14:06:17 +0000";
+lastChange = "2026-08-26 14:13:23 +0000";
 layers = (
 {
 background = {
@@ -9797,18 +9797,14 @@ paths = (
 closed = 1;
 nodes = (
 "187 0 LINE",
-"187 335 LINE",
-"165 313 LINE",
-"613 313 LINE",
-"592 335 LINE",
+"187 313 LINE",
+"592 313 LINE",
 "592 0 LINE",
 "670 0 LINE",
 "670 687 LINE",
 "592 687 LINE",
-"592 365 LINE",
-"614 387 LINE",
-"165 387 LINE",
-"187 365 LINE",
+"592 387 LINE",
+"187 387 LINE",
 "187 687 LINE",
 "109 687 LINE",
 "109 0 LINE"
@@ -9849,18 +9845,14 @@ paths = (
 closed = 1;
 nodes = (
 "267 0 LINE",
-"267 315 LINE",
-"220 264 LINE",
-"564 264 LINE",
-"518 315 LINE",
+"267 264 LINE",
+"518 264 LINE",
 "518 0 LINE",
 "712 0 LINE",
 "712 687 LINE",
 "518 687 LINE",
-"518 385 LINE",
-"566 437 LINE",
-"220 437 LINE",
-"267 385 LINE",
+"518 437 LINE",
+"267 437 LINE",
 "267 687 LINE",
 "73 687 LINE",
 "73 0 LINE"
@@ -9901,18 +9893,14 @@ paths = (
 closed = 1;
 nodes = (
 "162 0 LINE",
-"162 343 LINE",
-"161 332 LINE",
+"162 332 LINE",
 "609 332 LINE",
-"609 343 LINE",
 "609 0 LINE",
 "645 0 LINE",
 "645 687 LINE",
 "609 687 LINE",
-"609 357 LINE",
-"610 368 LINE",
-"161 368 LINE",
-"162 357 LINE",
+"609 368 LINE",
+"162 368 LINE",
 "162 687 LINE",
 "126 687 LINE",
 "126 0 LINE"
@@ -9980,19 +9968,69 @@ unicode = 0048;
 {
 color = 9;
 glyphname = Hbar;
-lastChange = "2026-08-26 14:06:46 +0000";
+lastChange = "2026-08-26 14:15:24 +0000";
 layers = (
 {
+components = (
+{
+name = H;
+}
+);
 layerId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"735 534 LINE",
+"735 568 LINE",
+"36 568 LINE",
+"36 534 LINE"
+);
+}
+);
+width = 771;
 },
 {
+components = (
+{
+name = H;
+transform = "{1, 0, 0, 1, -7, 0}";
+}
+);
 layerId = "35616FF6-3D9C-499B-B113-AC9E0DB5842A";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"742 514 LINE",
+"742 588 LINE",
+"23 588 LINE",
+"23 514 LINE"
+);
+}
+);
+width = 765;
 },
 {
+components = (
+{
+name = H;
+transform = "{1, 0, 0, 1, -10, 0}";
+}
+);
 layerId = "A0D976AB-773B-4D3A-9F7E-7A0C42AF1E7B";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"762 492 LINE",
+"762 638 LINE",
+"3 638 LINE",
+"3 492 LINE"
+);
+}
+);
+width = 765;
 }
 );
 unicode = 0126;
@@ -38434,19 +38472,67 @@ unicode = 0068;
 {
 color = 9;
 glyphname = hbar;
-lastChange = "2026-08-26 14:06:46 +0000";
+lastChange = "2026-08-26 14:16:21 +0000";
 layers = (
 {
+components = (
+{
+name = h;
+}
+);
 layerId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"335 605 LINE",
+"335 638 LINE",
+"36 638 LINE",
+"36 605 LINE"
+);
+}
+);
+width = 586;
 },
 {
+components = (
+{
+name = h;
+}
+);
 layerId = "35616FF6-3D9C-499B-B113-AC9E0DB5842A";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"346 581 LINE",
+"346 648 LINE",
+"13 648 LINE",
+"13 581 LINE"
+);
+}
+);
+width = 601;
 },
 {
+components = (
+{
+name = h;
+}
+);
 layerId = "A0D976AB-773B-4D3A-9F7E-7A0C42AF1E7B";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"402 554 LINE",
+"402 668 LINE",
+"13 668 LINE",
+"13 554 LINE"
+);
+}
+);
+width = 638;
 }
 );
 unicode = 0127;
@@ -72683,19 +72769,37 @@ unicode = 005D;
 {
 color = 9;
 glyphname = quotesinglbase;
-lastChange = "2026-08-26 14:06:46 +0000";
+lastChange = "2026-08-26 14:11:43 +0000";
 layers = (
 {
+components = (
+{
+name = quoteright;
+transform = "{1, 0, 0, 1, 0, -576}";
+}
+);
 layerId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
-width = 600;
+width = 266;
 },
 {
+components = (
+{
+name = quoteright;
+transform = "{1, 0, 0, 1, 0, -566}";
+}
+);
 layerId = "35616FF6-3D9C-499B-B113-AC9E0DB5842A";
-width = 600;
+width = 284;
 },
 {
+components = (
+{
+name = quoteright;
+transform = "{1, 0, 0, 1, 0, -500}";
+}
+);
 layerId = "A0D976AB-773B-4D3A-9F7E-7A0C42AF1E7B";
-width = 600;
+width = 314;
 }
 );
 unicode = 201A;

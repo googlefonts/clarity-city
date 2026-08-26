@@ -1,7 +1,7 @@
 {
 .appVersion = "3516";
 DisplayStrings = (
-"/.notdef"
+"/Hbar/hbar"
 );
 copyright = "Copyright 2019 The Clarity City Project Authors (https://github.com/googlefonts/clarity-city)";
 customParameters = (
@@ -9127,7 +9127,7 @@ unicode = 0120;
 {
 color = 6;
 glyphname = H;
-lastChange = "2026-08-26 14:06:21 +0000";
+lastChange = "2026-08-26 14:13:30 +0000";
 layers = (
 {
 background = {
@@ -9161,18 +9161,14 @@ paths = (
 closed = 1;
 nodes = (
 "133 0 LINE",
-"202 335 LINE",
-"176 313 LINE",
-"624 313 LINE",
-"607 335 LINE",
+"197 313 LINE",
+"602 313 LINE",
 "538 0 LINE",
 "616 0 LINE",
 "759 687 LINE",
 "681 687 LINE",
-"615 365 LINE",
-"642 387 LINE",
-"193 387 LINE",
-"210 365 LINE",
+"620 387 LINE",
+"215 387 LINE",
 "276 687 LINE",
 "198 687 LINE",
 "55 0 LINE"
@@ -9213,18 +9209,14 @@ paths = (
 closed = 1;
 nodes = (
 "108 0 LINE",
-"180 343 LINE",
-"176 332 LINE",
+"178 332 LINE",
 "625 332 LINE",
-"627 343 LINE",
 "555 0 LINE",
 "591 0 LINE",
 "734 687 LINE",
 "698 687 LINE",
-"630 357 LINE",
-"633 368 LINE",
-"184 368 LINE",
-"183 357 LINE",
+"632 368 LINE",
+"185 368 LINE",
 "251 687 LINE",
 "215 687 LINE",
 "72 0 LINE"
@@ -9265,18 +9257,14 @@ paths = (
 closed = 1;
 nodes = (
 "213 0 LINE",
-"277 315 LINE",
-"219 264 LINE",
-"563 264 LINE",
-"528 315 LINE",
+"267 264 LINE",
+"518 264 LINE",
 "465 0 LINE",
 "658 0 LINE",
 "801 687 LINE",
 "607 687 LINE",
-"547 385 LINE",
-"606 437 LINE",
-"260 437 LINE",
-"296 385 LINE",
+"557 437 LINE",
+"306 437 LINE",
 "356 687 LINE",
 "162 687 LINE",
 "19 0 LINE"
@@ -9293,19 +9281,69 @@ unicode = 0048;
 {
 color = 9;
 glyphname = Hbar;
-lastChange = "2026-08-26 14:06:57 +0000";
+lastChange = "2026-08-26 14:17:12 +0000";
 layers = (
 {
+components = (
+{
+name = H;
+}
+);
 layerId = "84328D8E-4D54-44EF-AF5C-0364B1C28646";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"791 534 LINE",
+"799 568 LINE",
+"100 568 LINE",
+"92 534 LINE"
+);
+}
+);
+width = 771;
 },
 {
+components = (
+{
+name = H;
+transform = "{1, 0, 0, 1, -7, 0}";
+}
+);
 layerId = "119329DF-C854-46E0-93EC-7E8A22DFCA4F";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"795 514 LINE",
+"811 588 LINE",
+"92 588 LINE",
+"76 514 LINE"
+);
+}
+);
+width = 765;
 },
 {
+components = (
+{
+name = H;
+transform = "{1, 0, 0, 1, -10, 0}";
+}
+);
 layerId = "88AF04C7-891B-4BE3-8AB1-6195D630646B";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"810 492 LINE",
+"842 638 LINE",
+"83 638 LINE",
+"51 492 LINE"
+);
+}
+);
+width = 765;
 }
 );
 unicode = 0126;
@@ -35316,19 +35354,67 @@ unicode = 0068;
 {
 color = 9;
 glyphname = hbar;
-lastChange = "2026-08-26 14:06:57 +0000";
+lastChange = "2026-08-26 14:17:35 +0000";
 layers = (
 {
+components = (
+{
+name = h;
+}
+);
 layerId = "84328D8E-4D54-44EF-AF5C-0364B1C28646";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"393 605 LINE",
+"401 638 LINE",
+"102 638 LINE",
+"94 605 LINE"
+);
+}
+);
+width = 586;
 },
 {
+components = (
+{
+name = h;
+}
+);
 layerId = "119329DF-C854-46E0-93EC-7E8A22DFCA4F";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"419 581 LINE",
+"433 648 LINE",
+"100 648 LINE",
+"86 581 LINE"
+);
+}
+);
+width = 601;
 },
 {
+components = (
+{
+name = h;
+}
+);
 layerId = "88AF04C7-891B-4BE3-8AB1-6195D630646B";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"470 554 LINE",
+"494 668 LINE",
+"105 668 LINE",
+"81 554 LINE"
+);
+}
+);
+width = 638;
 }
 );
 unicode = 0127;
@@ -64397,19 +64483,37 @@ unicode = 005D;
 {
 color = 9;
 glyphname = quotesinglbase;
-lastChange = "2026-08-26 14:06:57 +0000";
+lastChange = "2026-08-26 14:12:03 +0000";
 layers = (
 {
+components = (
+{
+name = quoteright;
+transform = "{1, 0, 0, 1, -131, -576}";
+}
+);
 layerId = "84328D8E-4D54-44EF-AF5C-0364B1C28646";
-width = 600;
+width = 266;
 },
 {
+components = (
+{
+name = quoteright;
+transform = "{1, 0, 0, 1, -123, -566}";
+}
+);
 layerId = "119329DF-C854-46E0-93EC-7E8A22DFCA4F";
-width = 600;
+width = 284;
 },
 {
+components = (
+{
+name = quoteright;
+transform = "{1, 0, 0, 1, -103, -500}";
+}
+);
 layerId = "88AF04C7-891B-4BE3-8AB1-6195D630646B";
-width = 600;
+width = 314;
 }
 );
 unicode = 201A;
