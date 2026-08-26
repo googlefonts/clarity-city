@@ -5,7 +5,7 @@
       - wght
       - ital
     familyName: "Clarity City"
-    buildStatic: false
+    buildStatic: true
     cleanUp: true
     stat:
       ClarityCity[wght].ttf:
