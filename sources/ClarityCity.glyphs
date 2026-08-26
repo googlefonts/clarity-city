@@ -1,6 +1,21 @@
 {
-.appVersion = "1233";
+.appVersion = "3516";
+DisplayStrings = (
+"ÁÁ99~~~~~~",
+"Light:/space Handgloves\012Regular:/space Handgloves\012Bold:/space Handgloves\012"
+);
 copyright = "Copyright (c) 2019 VMware, Inc.	";
+customParameters = (
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+}
+);
+}
+);
 date = "2019-04-25 15:17:33 +0000";
 designer = VMware;
 designerURL = "https://github.com/vmware/clarity-city";
@@ -16,6 +31,7 @@ alignmentZones = (
 );
 ascender = 795;
 capHeight = 687;
+custom = Thin;
 customParameters = (
 {
 name = typoAscender;
@@ -73,18 +89,23 @@ position = "{175, 0}";
 }
 );
 horizontalStems = (
-36
+36,
+0,
+0,
+0
 );
+iconName = Light;
 id = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
 userData = {
 GSOffsetHorizontal = 33;
 GSOffsetVertical = 33;
 };
 verticalStems = (
-36
+36,
+0,
+0,
+0
 );
-weight = Light;
-widthValue = 5;
 xHeight = 517;
 },
 {
@@ -157,7 +178,8 @@ position = "{223, 0}";
 horizontalStems = (
 67,
 71,
-74
+74,
+0
 );
 id = "35616FF6-3D9C-499B-B113-AC9E0DB5842A";
 userData = {
@@ -168,10 +190,10 @@ GSOffsetVertical = 26;
 verticalStems = (
 75,
 78,
-79
+79,
+0
 );
 weightValue = 400;
-widthValue = 5;
 xHeight = 517;
 },
 {
@@ -184,6 +206,7 @@ alignmentZones = (
 );
 ascender = 795;
 capHeight = 687;
+custom = Black;
 customParameters = (
 {
 name = typoAscender;
@@ -241,6 +264,7 @@ horizontalStems = (
 173,
 176
 );
+iconName = Bold;
 id = "A0D976AB-773B-4D3A-9F7E-7A0C42AF1E7B";
 userData = {
 GSCornerRadius = 180;
@@ -253,9 +277,7 @@ verticalStems = (
 194,
 200
 );
-weight = Bold;
 weightValue = 900;
-widthValue = 5;
 xHeight = 517;
 }
 );
@@ -540,12 +562,12 @@ name = A;
 },
 {
 name = acute;
-transform = "{1, 0, 0, 1, 318, 170}";
+transform = "{1, 0, 0, 1, 317, 170}";
 }
 );
 layerId = "44571BA4-E716-468C-91BB-C13C7221465B";
 name = bubble;
-width = 799;
+width = 797;
 },
 {
 associatedMasterId = "35616FF6-3D9C-499B-B113-AC9E0DB5842A";
@@ -24242,11 +24264,11 @@ width = 616;
 components = (
 {
 name = six;
-transform = "{-1, 0, 0, -1, 594, 687}";
+transform = "{-1, 0, 0, -1, 595, 687}";
 }
 );
 layerId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
-width = 594;
+width = 595;
 }
 );
 unicode = 0039;
@@ -29139,7 +29161,7 @@ transform = "{1, 0, 0, 1, 40, 0}";
 }
 );
 layerId = "42F9E5D8-FD84-4BAD-9A2A-5A287C7E6347";
-name = "Regular[700]";
+name = "[700]";
 paths = (
 {
 closed = 1;
@@ -29235,7 +29257,7 @@ transform = "{1, 0, 0, 1, 30, 0}";
 }
 );
 layerId = "187ADCAF-C1B8-479C-884A-98D244F66B65";
-name = "Bold[700]";
+name = "[700]";
 paths = (
 {
 closed = 1;
@@ -29377,7 +29399,7 @@ transform = "{1, 0, 0, 1, 24, 0}";
 }
 );
 layerId = "FE071C41-AE8E-426A-8D13-A9F7AE3CC754";
-name = "Regular[700]";
+name = "[700]";
 paths = (
 {
 closed = 1;
@@ -29473,7 +29495,7 @@ transform = "{1, 0, 0, 1, 19, 0}";
 }
 );
 layerId = "DB5FC6F9-C107-4976-9A15-609529B32215";
-name = "Bold[700]";
+name = "[700]";
 paths = (
 {
 closed = 1;
@@ -31147,11 +31169,12 @@ unicode = 003C;
 {
 color = 1;
 glyphname = asciitilde;
-lastChange = "2018-09-01 04:09:18 +0000";
+lastChange = "2026-08-26 13:00:02 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 43, -275}";
 }
@@ -31162,6 +31185,7 @@ width = 539;
 {
 components = (
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 29, -281}";
 }
@@ -31172,6 +31196,7 @@ width = 515;
 {
 components = (
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 51, -275}";
 }
@@ -38754,45 +38779,6 @@ width = 801;
 );
 instances = (
 {
-customParameters = (
-{
-name = typoAscender;
-value = 795;
-},
-{
-name = typoDescender;
-value = -205;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 795;
-},
-{
-name = hheaDescender;
-value = -205;
-},
-{
-name = underlinePosition;
-value = -133;
-},
-{
-name = underlineThickness;
-value = 20;
-},
-{
-name = winAscent;
-value = 795;
-},
-{
-name = winDescent;
-value = 205;
-}
-);
-interpolationWidth = 5;
 instanceInterpolations = {
 "3B040282-CF47-4846-BCAF-7BFF90FB63BC" = 1;
 };
@@ -38800,46 +38786,7 @@ name = Thin;
 weightClass = Thin;
 },
 {
-customParameters = (
-{
-name = typoAscender;
-value = 795;
-},
-{
-name = typoDescender;
-value = -205;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 795;
-},
-{
-name = hheaDescender;
-value = -205;
-},
-{
-name = underlinePosition;
-value = -133;
-},
-{
-name = underlineThickness;
-value = 20;
-},
-{
-name = winAscent;
-value = 795;
-},
-{
-name = winDescent;
-value = 205;
-}
-);
 interpolationWeight = 200;
-interpolationWidth = 5;
 instanceInterpolations = {
 "35616FF6-3D9C-499B-B113-AC9E0DB5842A" = 0.33333;
 "3B040282-CF47-4846-BCAF-7BFF90FB63BC" = 0.66667;
@@ -38848,46 +38795,7 @@ name = "Extra Light";
 weightClass = ExtraLight;
 },
 {
-customParameters = (
-{
-name = typoAscender;
-value = 795;
-},
-{
-name = typoDescender;
-value = -205;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 795;
-},
-{
-name = hheaDescender;
-value = -205;
-},
-{
-name = underlinePosition;
-value = -133;
-},
-{
-name = underlineThickness;
-value = 20;
-},
-{
-name = winAscent;
-value = 795;
-},
-{
-name = winDescent;
-value = 205;
-}
-);
 interpolationWeight = 300;
-interpolationWidth = 5;
 instanceInterpolations = {
 "35616FF6-3D9C-499B-B113-AC9E0DB5842A" = 0.66667;
 "3B040282-CF47-4846-BCAF-7BFF90FB63BC" = 0.33333;
@@ -38896,92 +38804,14 @@ name = Light;
 weightClass = Light;
 },
 {
-customParameters = (
-{
-name = typoAscender;
-value = 795;
-},
-{
-name = typoDescender;
-value = -205;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 795;
-},
-{
-name = hheaDescender;
-value = -205;
-},
-{
-name = underlinePosition;
-value = -133;
-},
-{
-name = underlineThickness;
-value = 20;
-},
-{
-name = winAscent;
-value = 795;
-},
-{
-name = winDescent;
-value = 205;
-}
-);
 interpolationWeight = 400;
-interpolationWidth = 5;
 instanceInterpolations = {
 "35616FF6-3D9C-499B-B113-AC9E0DB5842A" = 1;
 };
 name = Regular;
 },
 {
-customParameters = (
-{
-name = typoAscender;
-value = 795;
-},
-{
-name = typoDescender;
-value = -205;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 795;
-},
-{
-name = hheaDescender;
-value = -205;
-},
-{
-name = underlinePosition;
-value = -133;
-},
-{
-name = underlineThickness;
-value = 20;
-},
-{
-name = winAscent;
-value = 795;
-},
-{
-name = winDescent;
-value = 205;
-}
-);
 interpolationWeight = 500;
-interpolationWidth = 5;
 instanceInterpolations = {
 "35616FF6-3D9C-499B-B113-AC9E0DB5842A" = 0.8;
 "A0D976AB-773B-4D3A-9F7E-7A0C42AF1E7B" = 0.2;
@@ -38990,46 +38820,7 @@ name = Medium;
 weightClass = Medium;
 },
 {
-customParameters = (
-{
-name = typoAscender;
-value = 795;
-},
-{
-name = typoDescender;
-value = -205;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 795;
-},
-{
-name = hheaDescender;
-value = -205;
-},
-{
-name = underlinePosition;
-value = -133;
-},
-{
-name = underlineThickness;
-value = 20;
-},
-{
-name = winAscent;
-value = 795;
-},
-{
-name = winDescent;
-value = 205;
-}
-);
 interpolationWeight = 600;
-interpolationWidth = 5;
 instanceInterpolations = {
 "35616FF6-3D9C-499B-B113-AC9E0DB5842A" = 0.6;
 "A0D976AB-773B-4D3A-9F7E-7A0C42AF1E7B" = 0.4;
@@ -39038,96 +38829,17 @@ name = "Semi Bold";
 weightClass = SemiBold;
 },
 {
-customParameters = (
-{
-name = typoAscender;
-value = 795;
-},
-{
-name = typoDescender;
-value = -205;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 795;
-},
-{
-name = hheaDescender;
-value = -205;
-},
-{
-name = underlinePosition;
-value = -133;
-},
-{
-name = underlineThickness;
-value = 20;
-},
-{
-name = winAscent;
-value = 795;
-},
-{
-name = winDescent;
-value = 205;
-}
-);
 interpolationWeight = 700;
-interpolationWidth = 5;
 instanceInterpolations = {
 "35616FF6-3D9C-499B-B113-AC9E0DB5842A" = 0.4;
 "A0D976AB-773B-4D3A-9F7E-7A0C42AF1E7B" = 0.6;
 };
 isBold = 1;
-linkStyle = Regular;
 name = Bold;
 weightClass = Bold;
 },
 {
-customParameters = (
-{
-name = typoAscender;
-value = 795;
-},
-{
-name = typoDescender;
-value = -205;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 795;
-},
-{
-name = hheaDescender;
-value = -205;
-},
-{
-name = underlinePosition;
-value = -133;
-},
-{
-name = underlineThickness;
-value = 20;
-},
-{
-name = winAscent;
-value = 795;
-},
-{
-name = winDescent;
-value = 205;
-}
-);
 interpolationWeight = 800;
-interpolationWidth = 5;
 instanceInterpolations = {
 "35616FF6-3D9C-499B-B113-AC9E0DB5842A" = 0.2;
 "A0D976AB-773B-4D3A-9F7E-7A0C42AF1E7B" = 0.8;
@@ -39136,46 +38848,7 @@ name = "Extra Bold";
 weightClass = ExtraBold;
 },
 {
-customParameters = (
-{
-name = typoAscender;
-value = 795;
-},
-{
-name = typoDescender;
-value = -205;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 795;
-},
-{
-name = hheaDescender;
-value = -205;
-},
-{
-name = underlinePosition;
-value = -133;
-},
-{
-name = underlineThickness;
-value = 20;
-},
-{
-name = winAscent;
-value = 795;
-},
-{
-name = winDescent;
-value = 205;
-}
-);
 interpolationWeight = 900;
-interpolationWidth = 5;
 instanceInterpolations = {
 "A0D976AB-773B-4D3A-9F7E-7A0C42AF1E7B" = 1;
 };
