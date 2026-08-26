@@ -1,7 +1,7 @@
 {
 .appVersion = "3516";
 DisplayStrings = (
-"/Ygrave"
+VV
 );
 copyright = "Copyright 2019 The Clarity City Project Authors (https://github.com/googlefonts/clarity-city)";
 customParameters = (
@@ -8841,33 +8841,60 @@ unicode = 016E;
 {
 color = 1;
 glyphname = V;
-lastChange = "2018-09-01 04:06:20 +0000";
+lastChange = "2026-08-26 13:52:54 +0000";
 layers = (
 {
-components = (
+layerId = "35616FF6-3D9C-499B-B113-AC9E0DB5842A";
+paths = (
 {
-name = capital_V;
+closed = 1;
+nodes = (
+"413 0 LINE",
+"716 687 LINE",
+"631 687 LINE",
+"371 96 LINE",
+"110 687 LINE",
+"25 687 LINE",
+"328 0 LINE"
+);
 }
 );
-layerId = "35616FF6-3D9C-499B-B113-AC9E0DB5842A";
 width = 741;
 },
 {
-components = (
+layerId = "A0D976AB-773B-4D3A-9F7E-7A0C42AF1E7B";
+paths = (
 {
-name = capital_V;
+closed = 1;
+nodes = (
+"510 0 LINE",
+"774 687 LINE",
+"555 687 LINE",
+"401 285 LINE",
+"246 687 LINE",
+"27 687 LINE",
+"291 0 LINE"
+);
 }
 );
-layerId = "A0D976AB-773B-4D3A-9F7E-7A0C42AF1E7B";
 width = 801;
 },
 {
-components = (
+layerId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
+paths = (
 {
-name = capital_V;
+closed = 1;
+nodes = (
+"358 0 LINE",
+"661 687 LINE",
+"621 687 LINE",
+"338 45 LINE",
+"55 687 LINE",
+"15 687 LINE",
+"318 0 LINE"
+);
 }
 );
-layerId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
 width = 676;
 },
 {
@@ -37618,85 +37645,6 @@ nodes = (
 }
 );
 width = 311;
-}
-);
-},
-{
-export = 0;
-glyphname = capital_V;
-lastChange = "2018-05-28 04:59:37 +0000";
-layers = (
-{
-layerId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
-paths = (
-{
-closed = 1;
-nodes = (
-"358 0 LINE",
-"661 687 LINE",
-"621 687 LINE",
-"318 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"358 0 LINE",
-"55 687 LINE",
-"15 687 LINE",
-"318 0 LINE"
-);
-}
-);
-width = 676;
-},
-{
-layerId = "35616FF6-3D9C-499B-B113-AC9E0DB5842A";
-paths = (
-{
-closed = 1;
-nodes = (
-"413 0 LINE",
-"716 687 LINE",
-"631 687 LINE",
-"328 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"413 0 LINE",
-"110 687 LINE",
-"25 687 LINE",
-"328 0 LINE"
-);
-}
-);
-width = 741;
-},
-{
-layerId = "A0D976AB-773B-4D3A-9F7E-7A0C42AF1E7B";
-paths = (
-{
-closed = 1;
-nodes = (
-"510 0 LINE",
-"774 687 LINE",
-"555 687 LINE",
-"291 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"510 0 LINE",
-"246 687 LINE",
-"27 687 LINE",
-"291 0 LINE"
-);
-}
-);
-width = 801;
 }
 );
 },
