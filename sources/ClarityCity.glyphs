@@ -1,9 +1,5 @@
 {
 .appVersion = "3516";
-DisplayStrings = (
-"ÁÁ99~~~~~~",
-"Light:/space Handgloves\012Regular:/space Handgloves\012Bold:/space Handgloves\012"
-);
 copyright = "Copyright (c) 2019 VMware, Inc.	";
 customParameters = (
 {
@@ -29091,7 +29087,7 @@ unicode = 2004;
 {
 color = 1;
 glyphname = cent;
-lastChange = "2018-09-01 04:10:29 +0000";
+lastChange = "2026-08-26 13:12:11 +0000";
 layers = (
 {
 components = (
@@ -29322,6 +29318,38 @@ nodes = (
 }
 );
 width = 600;
+},
+{
+associatedMasterId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
+components = (
+{
+name = c;
+transform = "{1, 0, 0, 1, 41, 0}";
+}
+);
+layerId = "6848DA01-801D-4CBB-8EBA-676222612150";
+name = "[700]";
+paths = (
+{
+closed = 1;
+nodes = (
+"351 -74 LINE",
+"351 2 LINE",
+"315 2 LINE",
+"315 -74 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"351 512 LINE",
+"351 589 LINE",
+"315 589 LINE",
+"315 512 LINE"
+);
+}
+);
+width = 600;
 }
 );
 unicode = 00A2;
@@ -29329,7 +29357,7 @@ unicode = 00A2;
 {
 color = 1;
 glyphname = dollar;
-lastChange = "2018-09-01 04:09:18 +0000";
+lastChange = "2026-08-26 13:12:53 +0000";
 layers = (
 {
 components = (
@@ -29556,6 +29584,38 @@ nodes = (
 "473 868 LINE",
 "219 868 LINE",
 "219 -183 LINE"
+);
+}
+);
+width = 653;
+},
+{
+associatedMasterId = "3B040282-CF47-4846-BCAF-7BFF90FB63BC";
+components = (
+{
+name = S;
+transform = "{1, 0, 0, 1, 25, 0}";
+}
+);
+layerId = "770DD7E7-0F65-45ED-894F-887C45156BB5";
+name = "[700]";
+paths = (
+{
+closed = 1;
+nodes = (
+"364 -74 LINE",
+"364 7 LINE",
+"328 7 LINE",
+"328 -74 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"364 668 LINE",
+"364 759 LINE",
+"328 759 LINE",
+"328 684 LINE"
 );
 }
 );
