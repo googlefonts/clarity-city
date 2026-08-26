@@ -94,7 +94,7 @@ value = 994;
 },
 {
 name = hheaDescender;
-value = -302;
+value = -306;
 },
 {
 name = hheaLineGap;
@@ -190,7 +190,7 @@ value = 994;
 },
 {
 name = hheaDescender;
-value = -302;
+value = -306;
 },
 {
 name = hheaLineGap;
@@ -283,7 +283,7 @@ value = 994;
 },
 {
 name = hheaDescender;
-value = -302;
+value = -306;
 },
 {
 name = hheaLineGap;
